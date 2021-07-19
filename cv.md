@@ -21,3 +21,7 @@ English Language Teacher 2016-2021
 
 Kazan College of Railway Transport,
 Electrician 2009-2013
+
+## English
+
+Intermediate - B1
