@@ -9,3 +9,7 @@
 ## Summary
 
 Strive to create new IT products and see our world evolve into a new cyber-era filled with wonders.
+
+## Skills
+
+HTML, CSS, GIT, JavaScript, Photoshop, SQL
