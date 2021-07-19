@@ -13,3 +13,11 @@ Strive to create new IT products and see our world evolve into a new cyber-era f
 ## Skills
 
 HTML, CSS, GIT, JavaScript, Photoshop, SQL
+
+## Education
+
+Minsk State Linguistic University,
+English Language Teacher 2016-2021
+
+Kazan College of Railway Transport,
+Electrician 2009-2013
