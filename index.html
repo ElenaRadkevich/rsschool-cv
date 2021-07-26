@@ -1,62 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>My CV</title>
-   <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 <body>
-   <div class="cv">
-      <section>
-         <h1>Elena Radkevich</h1>
-         <h2>Front End Developer</h2> 
-         <div class="contacts">
-            <div class="contact">
-               <div class contact__type>
-                  Github
-               </div>
-               <div class contact__value>
-                  <a href="https://github.com/ElenaRadkevich">github</a>
-               </div>
+    <main class="main">
+        <aside class="sidebar">
+            <header class="header">
+                <figure>
+                    <img src="img/photo.jpg" class="avatar" alt="Photo: avatar" width="135" height="135">
+                    <figcaption>Elena Radkevich</figcaption>
+                </figure>
+            </header>
+            <div class="info">
+                <div class="info-item">
+                    <a href="#" class="link-mail">
+                        <img src="img/mail.svg" alt="mail">
+                        elena.radkevich.19@gmail.com
+                    </a>
+                </div>
+                <div class="info-item">
+                    <a href="#" class="link-phone">
+                        <img src="img/phone.svg" alt="phone">
+                        +375336632486
+                    </a>
+                </div>
+                <div class="info-item">
+                    <a href="#" class="link-mail">
+                        <img src="img/city.svg" alt="city">
+                        Minsk
+                    </a>
+                </div>
             </div>
-            <div class="contact">
-               <div class contact__type>
-                  Email
-               </div>
-               <div class contact__value>
-                  <a href="mailto:elena.radkevich.19@gmail.com">elena.radkevich.19@gmail.com</a>
-               </div>
-            </div>
-         </div>
-         <div class="summary">
-            Strive to create new IT products and see our world evolve into a new cyber-era filled with wonders.
-         </div>
-         <div class="skills">
-            <ul class="skills">
-               <li class="skill">HTML</li>
-               <li class="skill">CSS</li>
-               <li class="skill">GIT</li>
-               <li class="skill">JavaScript</li>
-               <li class="skill">Photoshop</li>
-               <li class="skill">SQL</li>
-             </ul>
-         </div>
-         <div class="education">
-            <p class="high__education">
-               Minsk State Linguistic University, English Language Teacher 2016-2021
-            </p>
-            <p class="college">
-               Kazan College of Railway Transport, Electrician 2009-2013
-            </p>
-         </div>
-         <div class="english">
-            <p class="english__lvl">
-               Intermediate - B1
-            </p>
-         </div>
-      </section>
-   </div>
+            <section class="languages">
+                <h3>Languages</h3>
+                <div class="english">
+                    English
+                    <div class="dots">
+                        <img src="img/dotActive.svg" alt="dotActive">
+                        <img src="img/dotActive.svg" alt="dotActive">
+                        <img src="img/dot.svg" alt="dot">
+                        <img src="img/dot.svg" alt="dot">
+                        <img src="img/dot.svg" alt="dot">
+                    </div>
+                </div>
+            </section>
+        </aside>
+        <div class="right">
+            <section class="about">
+                <h3>About me</h3>
+                <p>Strive to create new IT products and see our world evolve into a new cyber-era filled with wonders.
+                </p>
+            </section>
+            <section class="skills">
+                <h3>Skills</h3>
+                <ul>
+                  <li class="skill">HTML</li>
+                  <li class="skill">CSS</li>
+                  <li class="skill">GIT</li>
+                  <li class="skill">JavaScript</li>
+                  <li class="skill">Photoshop</li>
+                  <li class="skill">SQL</li>
+                </ul>
+            </section>
+            <section class="education">
+                <h3>education</h3>
+                <p>
+                  Minsk State Linguistic University, English Language Teacher 2016-2021
+                </p>
+                <p>
+                  Kazan College of Railway Transport, Electrician 2009-2013
+                </p>
+            </section>
+            <section class="experience">
+                <h3>Experience</h3>
+                <p>
+                    Junior QA Engineer at The educational center "Stormnet Technologies", july 2019-septemper 2019
+                </p>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <a href="https://rs.school/js/" class="link-courseschool">
+            <img src="img/logo.svg" alt="logo: courseschool" class="logo-school" width="200" height="100">
+        </a>
+        <a href="https://github.com/Evgeniy37529" class="link-git">
+            <img src="img/github.png" alt="logo: github" class="git-img" width="50" height="50">
+            <p>gitHub</p>
+        </a>
+        
+    </footer>
 </body>
 </html>

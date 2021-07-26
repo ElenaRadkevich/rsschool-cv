@@ -1,27 +1,187 @@
-html {
-	font-family: Roboto, sans-serif;
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
 }
 
-* {
-	color: secondary-color;
+body{
+   max-width: 850px;
+   margin: auto;
 }
 
-h1 {
-	color: primary-color;
-	margin-bottom: 0.25em;
+.main{
+   display: flex;
+   max-width: 100%;
+   background: #C0D8DE 100% ;
+   padding: 10px 14px;
+   border-radius: 10px;
+   width: 2550px;
+   ;
+}
+.sidebar{
+   background:#E4E6E7;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-right: 18px;
+   padding-left: 18px;
+   padding-bottom: 10px;
+}
+.header{
+   margin-top: 10px;
+}
+.info , .languages.{
+   width: 100%;
+}
+figure{
+   display: flex;
+   align-items: center;
+   font: normal 35px/43px Montserrat;
+   color: #FFFFFF;
+   
+}
+figcaption{
+   margin-left: 10px;
+}
+.avatar{
+   
+   object-fit: cover;
+   border-radius: 50%;
+}
+.info ul{
+   list-style: none;
+}
+.info{
+   border-radius: 10px;
+   margin-top: 7px;
+   margin-right: 18px;
+   margin-left: 18px;
+   
+   
 }
 
-h2 {
-	color: secondary-color;
-	font-size: 1em;
-	margin-top: 0;
-	margin-bottom: 1em;
+.info-item{
+   background: rgba(196, 196, 196, 0.35);
+   border-radius: 10px;
+   margin-top: 15px;
+}
+.info a{
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+   font: normal 22px/20px Calibri;
+   color: #FFFFFF;
+   text-align: center;
+   padding: 10px 30px 10px 15px;
+}
+.info-item a img{
+   margin-right: 40px;
 }
 
-a {
-	color: primary-color;
+.languages {
+   color: #FFFFFF;
+   background: rgba(196, 196, 196, 0.35);
+   border-radius: 10px;
+   margin-top: 45px;
+   font: normal 22px/20px Calibri;
+   padding-left: 15px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+h3{
+   font: normal 28px/32px Montserrat;
+   
+}
+.english{
+   margin-top: 15px;
+   display: flex;
+   align-items: center;
+}
+.dots{
+   margin-left: 10px;
 }
 
-.contact {
-	display: flex;
+.right{
+   width: 100%;
+   background: #FFFFFF;
+   padding-top: 19px;
+   padding-right: 18px;
+   padding-left: 18px;
+   border-radius: 5px;
+   margin-left: 10px;
+}
+.about, .skills, .experience, .education{
+   margin-bottom: 20px;
+   
+   
+}
+.about h3, .skills h3, .experience h3, .education h3 {
+   width: 220px;
+   text-transform: uppercase;
+   text-align: center;
+   color: #fff;
+   background: #545454;
+   border-radius: 5px;
+   position: relative;
+   margin-bottom: 15px;
+   wrap: none;
+}
+.about p, .experience p, .education p{
+   font: italic normal 18px/20px Calibri;
+   text-align: justify;
+   color: #000000;
+}
+
+.skills ul{
+   list-style: none;
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.skills ul li{
+   width:30%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 10px;
+   font: normal 15px/25px Montserrat;
+   font-weight: 600;
+   color: #545454;
+}
+.skill-img{
+   width: 50px;
+   height: 50px;
+   object-fit: cover;
+}
+.link-project{
+   text-decoration: none;
+   font: italic normal 18px/20px Calibri;
+   color: #000
+}
+.footer{
+   max-width: 860px;
+   margin: auto;
+   background:  #C0D8DE;
+   margin-top: 5px;
+   border-radius: 10px;
+}
+.link-courseschool{
+   display: block;
+   text-align: center;
+}
+.link-project:hover{
+   font-weight: 700;
+   color: rgb(255, 29, 13);
+   box-shadow: inset 3px 3px 10px , -3px -3px 10px 3px; 
+}
+.link-git{
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+   justify-content: center;
+   color: #fff;
+   font: normal 20px/20px Calibri;
+   
 }
