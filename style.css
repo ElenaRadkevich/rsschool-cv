@@ -169,7 +169,7 @@ h3{
 }
 .link-courseschool{
    display: block;
-   text-align: center;
+   text-align: left;
 }
 .link-project:hover{
    font-weight: 700;
@@ -180,3 +180,24 @@ h3{
    display: block;
    text-align: center;
 }
+.link-year{
+   display: block;
+   text-align: right;
+}
+.wrap {
+   width: 1000px;
+   margin: auto;
+   height: 120px;
+  }
+
+.bblock {
+  float: left; 
+  line-height: 120px;
+  font-size: 40px;
+  width: 270px; 
+  margin-right: 35px;
+  text-align: center; 
+}
+.wrap :last-child {
+  margin-right: 0px;
+                 }
