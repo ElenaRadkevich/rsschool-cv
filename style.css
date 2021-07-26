@@ -1,0 +1,27 @@
+html {
+	font-family: Roboto, sans-serif;
+}
+
+* {
+	color: secondary-color;
+}
+
+h1 {
+	color: primary-color;
+	margin-bottom: 0.25em;
+}
+
+h2 {
+	color: secondary-color;
+	font-size: 1em;
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+
+a {
+	color: primary-color;
+}
+
+.contact {
+	display: flex;
+}
